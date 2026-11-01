@@ -1,0 +1,2 @@
+-import { ReportGenerator } from '../src/ReportGenerator.js';
++import { ReportGenerator } from '../src/ReportGenerator.refactored.js';

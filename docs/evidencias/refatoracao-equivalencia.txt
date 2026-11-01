@@ -1,0 +1,3 @@
+200 cenários comparativos aprovados, com duas chamadas sucessivas por cenário (400 comparações de saída e estado).
+Cobertura: ADMIN/USER/papel desconhecido/ausente; CSV/HTML/formato desconhecido/vazio/ausente; limites 500 e 1000; prioridade preexistente; array vazio; valores negativos e NaN.
+Interface pública preservada; cópia do teste difere exclusivamente no caminho do import.

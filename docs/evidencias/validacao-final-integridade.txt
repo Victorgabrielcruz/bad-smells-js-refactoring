@@ -1,0 +1,5 @@
+Originais com diff vazio em relação ao HEAD (saída 0); hashes idênticos à fase anterior. HEAD usa LF e checkout usa CRLF.
+Teste copiado: diferença exclusiva no caminho do import.
+Configuração efetiva do ESLint idêntica para os dois arquivos; alertas do original iguais aos históricos.
+C:\Users\vgppl\Documents\bad-smells-js-refactoring\__tests__\ReportGenerator.refactored.test.js: 4 aprovados; 1 reprovados.
+C:\Users\vgppl\Documents\bad-smells-js-refactoring\tests\ReportGenerator.test.js: 4 aprovados; 1 reprovados.

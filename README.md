@@ -35,3 +35,14 @@ A suíte de testes em `__tests__/ReportGenerator.test.js` é sua **rede de segur
     npx eslint src/
     ```
     (Analise os erros reportados pelo `eslint-plugin-sonarjs`).
+
+## Entrega do trabalho
+
+- [Relatório PDF (4 páginas)](output/pdf/relatorio-bad-smells-refatoracao-segura.pdf)
+- [Guia da entrega e reprodução](docs/entrega.md)
+- [Processo de refatoração](docs/processo-refatoracao.md)
+- [Validação final e limitações](docs/evidencias/validacao-final.md)
+
+A implementação original e a suíte em `tests/` foram preservadas. A cópia refatorada está em `src/ReportGenerator.refactored.js` e a suíte copiada em `__tests__/ReportGenerator.refactored.test.js`.
+
+Resultado registrado: lint da cópia sem diagnósticos; com ESM temporário, 8 testes aprovados e 2 reprovados, pela mesma falha de HTML ADMIN preexistente em cada suíte. O requisito de 100% de aprovação não foi atingido. Consulte o guia para os comandos e as evidências reais.

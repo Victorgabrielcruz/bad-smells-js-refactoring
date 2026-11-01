@@ -137,3 +137,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Artefatos locais de revisão e anexos
+/tmp/
+.codex-attachments/
+__pycache__/
+*.pyc

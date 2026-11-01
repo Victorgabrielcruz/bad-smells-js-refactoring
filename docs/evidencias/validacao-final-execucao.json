@@ -1,0 +1,13 @@
+{
+  "executedAt": "2026-11-01T20:43:30.0095137-03:00",
+  "node": "v24.19.0",
+  "npm": "11.17.0",
+  "eslintOriginalExitCode": 1,
+  "eslintRefactoredExitCode": 0,
+  "eslintJsonExitCode": 1,
+  "npmTestExitCode": 1,
+  "npmTestEsmExitCode": 1,
+  "configSha256Before": "8305AE5B83149F39671E8B663771700AF57605EED8645EF908A362CCC930E87F",
+  "configSha256After": "8305AE5B83149F39671E8B663771700AF57605EED8645EF908A362CCC930E87F",
+  "configurationUnchanged": true
+}

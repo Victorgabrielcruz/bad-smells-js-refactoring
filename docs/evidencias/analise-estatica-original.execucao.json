@@ -1,0 +1,10 @@
+{
+  "command": "npx eslint src/",
+  "exitCode": 1,
+  "jsonCommand": "npx eslint src/ --format json --output-file docs/evidencias/analise-estatica-original.eslint.json",
+  "jsonExitCode": 1,
+  "sourceSha256Before": "E3AAAF125FC846DE0BE4BE873DB63A6D17B020CAB8446E82DEBB3F26A0A386A8",
+  "sourceSha256After": "E3AAAF125FC846DE0BE4BE873DB63A6D17B020CAB8446E82DEBB3F26A0A386A8",
+  "sourceUnchanged": true,
+  "executedAt": "2026-11-01T20:39:08.7133895-03:00"
+}

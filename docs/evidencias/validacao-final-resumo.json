@@ -1,0 +1,86 @@
+{
+  "integrity": [
+    {
+      "path": "src/ReportGenerator.js",
+      "sha256": "e3aaaf125fc846de0be4be873db63a6d17b020cab8446e82debb3f26a0a386a8",
+      "headSha256": "1fc145bbdb5445c1ceaaf4484ab061c04426f46634e8e469295ce4a9df2e661c",
+      "identicalToHistoricalWorkingTreeBytes": true,
+      "identicalToHeadAfterCrLfNormalization": true
+    },
+    {
+      "path": "tests/ReportGenerator.test.js",
+      "sha256": "fffa6aa1599b399af1d52abd192370c7d80158e08c3ee02f4c95b18bc0ae97da",
+      "headSha256": "c099681bfecf7fa136144bdf8c8906cb4ef957a36a9acc8c02da2b4e17b15389",
+      "identicalToHistoricalWorkingTreeBytes": true,
+      "identicalToHeadAfterCrLfNormalization": true
+    }
+  ],
+  "originalsGitDiffExitCode": 0,
+  "copiedTestOnlyImportChanged": true,
+  "originalTestActualPath": "tests/ReportGenerator.test.js",
+  "copiedTestPath": "__tests__/ReportGenerator.refactored.test.js",
+  "identicalEffectiveEslintConfig": true,
+  "eslint": "8.57.1",
+  "sonarjs": "0.21.0",
+  "cognitiveComplexityRule": [
+    "error",
+    15
+  ],
+  "noIdenticalFunctionsRule": [
+    "error"
+  ],
+  "historicalOriginalDiagnosticsUnchanged": true,
+  "originalLint": {
+    "errors": 2,
+    "warnings": 0,
+    "messages": [
+      {
+        "ruleId": "sonarjs/cognitive-complexity",
+        "severity": 2,
+        "line": 11,
+        "column": 3,
+        "message": "Refactor this function to reduce its Cognitive Complexity from 27 to the 15 allowed."
+      },
+      {
+        "ruleId": "sonarjs/no-collapsible-if",
+        "severity": 2,
+        "line": 43,
+        "column": 14,
+        "message": "Merge this if statement with the nested one."
+      }
+    ]
+  },
+  "refactoredLint": {
+    "errors": 0,
+    "warnings": 0,
+    "messages": []
+  },
+  "tests": [
+    {
+      "file": "C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\__tests__\\ReportGenerator.refactored.test.js",
+      "passed": 4,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "ReportGenerator (Rede de Segurança) Admin User deve gerar um relatório HTML completo para Admin (com prioridade)",
+          "messages": [
+            "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"<tr><td>1</td><td>Produto A</td><td>300</td></tr>\"\nReceived string:    \"<html><body>\n<h1>Relatório</h1>\n<h2>Usuário: Admin</h2>\n<table>\n<tr><th>ID</th><th>Nome</th><th>Valor</th></tr>\n<tr ><td>1</td><td>Produto A</td><td>300</td></tr>\n<tr ><td>2</td><td>Produto B</td><td>700</td></tr>\n<tr style=\\\"font-weight:bold;\\\"><td>3</td><td>Produto C</td><td>1200</td></tr>\n</table>\n<h3>Total: 2200</h3>\n</body></html>\"\n    at Object.<anonymous> (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\__tests__\\ReportGenerator.refactored.test.js:50:22)\n    at Promise.then.completed (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\tests\\ReportGenerator.test.js",
+      "passed": 4,
+      "failed": 1,
+      "failures": [
+        {
+          "name": "ReportGenerator (Rede de Segurança) Admin User deve gerar um relatório HTML completo para Admin (com prioridade)",
+          "messages": [
+            "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"<tr><td>1</td><td>Produto A</td><td>300</td></tr>\"\nReceived string:    \"<html><body>\n<h1>Relatório</h1>\n<h2>Usuário: Admin</h2>\n<table>\n<tr><th>ID</th><th>Nome</th><th>Valor</th></tr>\n<tr ><td>1</td><td>Produto A</td><td>300</td></tr>\n<tr ><td>2</td><td>Produto B</td><td>700</td></tr>\n<tr style=\\\"font-weight:bold;\\\"><td>3</td><td>Produto C</td><td>1200</td></tr>\n</table>\n<h3>Total: 2200</h3>\n</body></html>\"\n    at Object.<anonymous> (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\tests\\ReportGenerator.test.js:50:22)\n    at Promise.then.completed (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at _runTestsForDescribeBlock (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\vgppl\\Documents\\bad-smells-js-refactoring\\node_modules\\jest-runner\\build\\runTest.js:444:34)"
+          ]
+        }
+      ]
+    }
+  ]
+}

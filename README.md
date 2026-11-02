@@ -38,7 +38,7 @@ A suíte de testes em `__tests__/ReportGenerator.test.js` é sua **rede de segur
 
 ## Entrega do trabalho
 
-- [Relatório PDF (4 páginas)](output/pdf/relatorio-bad-smells-refatoracao-segura.pdf)
+- [Relatório PDF em formatação ABNT (4 páginas)](output/pdf/relatorio-bad-smells-abnt.pdf)
 - [Guia da entrega e reprodução](docs/entrega.md)
 - [Processo de refatoração](docs/processo-refatoracao.md)
 - [Validação final e limitações](docs/evidencias/validacao-final.md)

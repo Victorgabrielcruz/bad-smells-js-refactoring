@@ -2,7 +2,7 @@
 
 ## Arquivos principais
 
-- Relatório revisado visualmente, 4 páginas: `output/pdf/relatorio-bad-smells-refatoracao-segura.pdf`.
+- Relatório revisado visualmente, 4 páginas: `output/pdf/relatorio-bad-smells-abnt.pdf`.
 - Implementação refatorada: `src/ReportGenerator.refactored.js`.
 - Suíte copiada: `__tests__/ReportGenerator.refactored.test.js`.
 - Configuração: `.eslintrc.json`, `package.json` e `package-lock.json`.
@@ -44,7 +44,7 @@ Os registros antigos que dizem que o print estava pendente refletem o estado daq
 
 ## Revisão e integridade
 
-O PDF foi renderizado com Poppler e suas quatro páginas foram inspecionadas visualmente: capa, três smells e captura, trechos antes/depois, tabela de validação e conclusão. A capa usa os dados acadêmicos fornecidos pelo aluno. O script de geração está em `docs/relatorio/gerar_relatorio.py` e utiliza ReportLab, Pillow e pypdf. As imagens temporárias de revisão em `tmp/` não integram a entrega.
+O PDF foi renderizado com Poppler e suas quatro páginas foram inspecionadas visualmente: capa, três smells e captura, trechos antes/depois, tabela de validação e conclusão. A capa usa os dados acadêmicos fornecidos pelo aluno. O script de geração está em `docs/relatorio/gerar_relatorio_abnt.py` e utiliza ReportLab, Pillow e pypdf. As imagens temporárias de revisão em `tmp/` não integram a entrega.
 
 Os originais estão preservados: `src/ReportGenerator.js` e `tests/ReportGenerator.test.js` (caminho real da base). O teste copiado difere somente no import. Verificações e hashes estão em `docs/evidencias/validacao-final-resumo.json`.
 
